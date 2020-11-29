@@ -2,7 +2,7 @@
 " Str cat operation added "
 #include <stdio.h>
 
-size_t my_strlen(char *s)
+size_t my_wstrlen(char *s)
 {
    const char *p = s;
 
@@ -11,7 +11,7 @@ size_t my_strlen(char *s)
 
    return (p - s);
 }
-char *my_strcpy(char *t, char *s)
+char *my_wstrcpy(char *t, char *s)
 
 {
    
