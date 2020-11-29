@@ -24,6 +24,24 @@ char *my_wstrcpy(char *t, char *s)
    return p;
    
 }
+
+wchar_t *my_wstrchr(wchar_t *ws, wchar_t wc)
+
+{
+   
+   while (*ws) 
+   {
+      
+      if (*ws == wc)
+      
+      return ws;
+      
+      ++ws;
+      
+   }
+   return NULL;
+   
+}
 int main(void)
 {
    int i;
